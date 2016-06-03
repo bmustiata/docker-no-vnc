@@ -2,7 +2,7 @@
 
 This container exports a connection to a VNC server using no-vnc. This is useful to connect to otherwise innaccesible containers, without the use of another client except the browser.
 
-For example:
+## Usage
 
 ```sh
 docker run \
@@ -11,4 +11,10 @@ docker run \
     --link containerthatrunsvnc:vnc \
     bmst/no-vnc
 ```
+
+## Demo
+
+Here's a sample on how to inspect a running [Germanium](http://germaniumhq.com) webdriver browser integration test:
+
+![bmst/no-vnc connects to a VNC that runs inside a container](no-vnc-demo.gif)
 
