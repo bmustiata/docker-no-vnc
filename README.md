@@ -16,5 +16,5 @@ docker run \
 
 Here's a sample on how to inspect a running [Germanium](http://germaniumhq.com) webdriver browser integration test:
 
-![bmst/no-vnc connects to a VNC that runs inside a container](no-vnc-demo.gif)
+![bmst/no-vnc connects to a VNC that runs inside a container](https://github.com/bmustiata/docker-no-vnc/raw/master/no-vnc-demo.gif)
 
